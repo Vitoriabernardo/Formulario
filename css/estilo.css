@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+	background-color:#ffe8f8;
+}
+*{
+	font-family:verdana;
+}
+h1{
+	text-align:center;
+	color: #d3a2b1;
+
+}
+legend{
+	color:#d0a6b3;
+}
+
+.fieldsetmaior{
+	box-shadow:#f3d8e1;
+	width:80%;
+	margin:0 auto;
+}
+fieldset{
+	border-radius:15px;
+	background-color:white;
+}
+legend{
+	font-weight:bold;
+}
+input, select,textarea{
+	border-radius:5px;
+	margin:5px;
+	padding:5px;
+}
+input:focus, select:focus, textarea:focus{
+	background-color:pink;
+}
+input:hover, select:hover, textarea:hover{
+	border:2px solid #d8f2ec;
+}
+
